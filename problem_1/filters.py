@@ -11,7 +11,6 @@ class Testingsfilter(FilterSet):
         fields = {
             'numero_rol': ['contains', 'exact'],
             'nombre_paciente': ['contains', 'exact'],
-            'fecha_hospitalizacion': ['contains', 'exact'],
-            'fecha_alta': ['contains', 'exact'],
+            'fecha_alta': [ 'gte', 'lte', ],
             'codigo_prevision': ['contains', 'exact']
-        }
+            }
