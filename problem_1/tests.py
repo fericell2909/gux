@@ -7,6 +7,8 @@ class TestingsTestCase(TestCase):
             numero_rol = 12345678,
             nombre_paciente = "Ruben Carvajal",
             codigo_prevision = "QWASEDRFTG",
+            fecha_hospitalizacion = "2021-08-12",
+            fecha_alta = "2021-08-31",
             accion = "CL",
             numero = "1",
             tipo_RAM = ""
