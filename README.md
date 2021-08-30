@@ -23,3 +23,6 @@ como es una prueba no se requiere hacer migraciones la base de datos esta adjunt
 
 http://localhost:8000/api/testings/?numero_rol__contains=&numero_rol=&nombre_paciente__contains=&nombre_paciente=&fecha_alta__gte=&fecha_alta__lte=&codigo_prevision__contains=&codigo_prevision=
 
+#### Admin 
+
+http://localhost:8000/admin/problem_1/testings/
