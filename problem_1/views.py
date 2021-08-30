@@ -19,6 +19,6 @@ class TestingsViewSet(viewsets.ModelViewSet):
         queryset = Testings.objects.all()  
         list_all_prevision = []
         for i in  queryset:
-            list_all_prevision.append(i.fecha_prevision)
+            list_all_prevision.append(i.codigo_prevision)
 
         return Response ({"result": list_all_prevision})
